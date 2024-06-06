@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="theme-color" content="#ed145b" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <title>Oasis Radiant</title>
+    <meta property="og:title" content="Oasis Radiant" />
+    <meta property="og:site_name" content="Oasis Radiant" />
+    <meta property="og:type" content="website" />
+    <meta
+      name="description"
+      content="Bem-vindo ao Oasis Radiant, um refúgio de luxo e tranquilidade. Estamos aqui para proporcionar uma experiência única e inesquecível em hospedagem."
+    />
+    <meta
+      property="og:description"
+      content="Bem-vindo ao Oasis Radiant, um refúgio de luxo e tranquilidade. Estamos aqui para proporcionar uma experiência única e inesquecível em hospedagem."
+    />
+    <link rel="canonical" href="https://oasisradiant.com/" />
+    <meta property="og:url" content="https://oasisradiant.com/" />
+    <meta property="og:image" content="./assets/favicon.ico" />
+  </head>
+  <body class="bg-[var(--color-bg-primary)] text-[var(--color-text)]">
+    <header
+      class="fixed h-screen bg-[--color-bg-secondary] flex flex-col justify-between px-2 shadow-snipped pt-5"
+    >
+      <figure class="mx-auto">
+        <a
+          href="#home"
+          class="text-4xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-three] rounded-full duration-200 ease-linear"
+        >
+          <i class="bx bxs-dog"></i>
+        </a>
+      </figure>
+      <nav class="flex flex-col justify-between my-24 items-center h-full">
+        <li>
+          <a
+            href="#about"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-bookmark-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#gallery"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-photo-album"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#services"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-bar-chart-alt-2"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#shop"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-store-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-cart-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-3xl w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-two] rounded-full duration-200 ease-linear"
+          >
+            <i class="bx bx-map-pin"></i>
+          </a>
+        </li>
+      </nav>
+    </header>
+    <main class="w-full h-full flex flex-col pl-16 justify-center items-center">
+      <section
+        id="home"
+        class="flex w-full h-screen justify-between max-w-[1550px] gap-10 px-4 overflow-hidden"
+      >
+        <div class="h-full flex flex-col justify-center gap-8">
+          <div class="flex flex-col gap-8 text-[--color-one]">
+            <h1 class="font-bold text-7xl">Pet & Companhia:</h1>
+            <h2 class="font-semibold text-4xl">Cuidando com Amor!</h2>
+          </div>
+          <div>
+            <p class="flex flex-col gap-3 text-xl max-w-[650px]">
+              <span class="font-bold text-2xl">Na Pet & Companhia,</span>
+              <span class="text-justify font-thin">
+                seu pet é tratado com todo o
+                <strong> carinho e dedicação </strong> que ele merece. Nossa
+                missão é garantir a
+                <strong>felicidade e o bem-estar</strong> dos seus amigos de
+                quatro patas, oferecendo uma ampla gama de produtos de alta
+                qualidade e <strong>serviços especializados</strong>. Desde a
+                a<strong> limentação até a higiene </strong>, passando por
+                acessórios e brinquedos, estamos aqui para proporcionar tudo o
+                que seu pet precisa para viver de forma
+                <strong>saudável e feliz</strong>. Confie na
+                <strong>Pet & Companhia</strong>, onde o amor e o cuidado são
+                <strong> nossa prioridade. </strong>
+              </span>
+            </p>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="flex w-full justify-between gap-5">
+              <button class="button shadow-snipped">
+                <span class="bell">
+                  <i class="bx bx-bone"></i>
+                </span>
+                Notifications
+                <div class="arrow">›</div></button
+              ><button class="button shadow-snipped">
+                <span class="bell">
+                  <i class="bx bx-bone"></i>
+                </span>
+                Notifications
+                <div class="arrow">›</div>
+              </button>
+            </div>
+            <div class="w-full flex justify-center">
+              <button class="button shadow-snipped">
+                <span class="bell">
+                  <i class="bx bx-bone"></i>
+                </span>
+                Notifications
+                <div class="arrow">›</div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="default-carousel"
+          class="relative min-w-[600px] h-[90vh] shadow-snipped"
+          data-carousel="slide"
+        >
+          <div
+            class="relative h-full overflow-hidden rounded-lg rounded-t-none"
+          >
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="./assets/dog1.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="./assets/dog2.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="./assets/dog1.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="./assets/dog2.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div
+            class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3"
+          >
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="true"
+              aria-label="Slide 1"
+              data-carousel-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 2"
+              data-carousel-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 3"
+              data-carousel-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 4"
+              data-carousel-slide-to="3"
+            ></button>
+          </div>
+          <button
+            type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[--color-one] opacity-50 duration-200 ease-linear hover:opacity-90"
+            >
+              <svg
+                class="w-4 h-4 text-[--color-three] rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[--color-one] opacity-50 duration-200 ease-linear hover:opacity-90"
+            >
+              <svg
+                class="w-4 h-4 text-[--color-three] rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </section>
+      <section
+        id="about"
+        class="flex flex-col w-full max-w-[1550px] gap-10 px-4 overflow-hidden mb-24 pt-24"
+      >
+        <h1 class="font-semibold text-4xl">Quem somos?</h1>
+
+        <div class="flex w-full justify-between">
+          <div
+            class="flex flex-col justify-between max-w-[800px] font-thin text-justify"
+          >
+            <p>
+              Bem-vindo à <strong>Pet & Companhia</strong>, a sua loja de
+              confiança para tudo o que seu amigo de quatro patas precisa.
+              Fundada em <strong>2010</strong>, no coração de
+              <strong>São Paulo</strong>, nossa missão é proporcionar os
+              melhores produtos e serviços para garantir a
+              <strong>saúde</strong>, a <strong>felicidade</strong> e o
+              <strong>bem-estar</strong> dos seus pets. Nossa história começou
+              com um <strong>amor incondicional pelos animais</strong>. Maria e
+              João Silva, apaixonados por seus próprios cães e gatos, decidiram
+              transformar essa paixão em um negócio que pudesse beneficiar
+              outros amantes de animais. Assim nasceu a
+              <strong>Pet & Companhia</strong>, um lugar onde cada pet é tratado
+              como parte da família.
+            </p>
+            <p>
+              Estamos localizados na
+              <strong>Rua das Flores, 123, em São Paulo</strong>, e contamos com
+              uma estrutura moderna e acolhedora. Nossas instalações incluem uma
+              <strong>área de banho e tosa</strong> equipada com o que há de
+              mais avançado em cuidados estéticos, uma
+              <strong>clínica veterinária completa</strong> e uma loja recheada
+              de <strong>produtos de alta qualidade</strong>, desde
+              <strong>alimentos nutritivos</strong> até
+              <strong>brinquedos e acessórios</strong>.
+            </p>
+            <p>
+              Nossa equipe é composta por
+              <strong>profissionais dedicados</strong>, incluindo
+              <strong>veterinários experientes</strong>,
+              <strong>groomers talentosos</strong> e
+              <strong>atendentes atenciosos</strong>, todos comprometidos em
+              oferecer um
+              <strong>atendimento personalizado e de qualidade</strong>.
+              Oferecemos uma <strong>ampla gama de serviços</strong>, como
+              <strong>consultas veterinárias</strong>,
+              <strong>vacinação</strong>, <strong>adestramento</strong> e até
+              mesmo um espaço exclusivo para
+              <strong>socialização e brincadeiras</strong>.
+            </p>
+            <p>
+              Na <strong>Pet & Companhia</strong>, acreditamos que cada animal
+              merece o melhor cuidado possível. Nossa missão é criar um ambiente
+              onde os pets e seus donos se sintam
+              <strong>bem-vindos e seguros</strong>. Venha nos visitar e
+              descubra por que a <strong>Pet & Companhia</strong> é a escolha
+              certa para o seu amigo peludo. Aqui, cuidamos do seu pet com
+              <strong>amor e dedicação</strong>, como se fosse nosso.
+            </p>
+          </div>
+          <figure>
+            <img
+              src="./assets/adoravel.jpg"
+              class="w-[600px] h-full rounded-lg shadow-snipped"
+              alt=""
+            />
+          </figure>
+        </div>
+      </section>
+      <section
+        class="flex flex-col w-full max-w-[1550px] gap-10 px-4 overflow-hidden mb-24 pt-24"
+      >
+        <h1 class="font-semibold text-4xl">Corpo Clínico</h1>
+        <div class="flex gap-5 w-full justify-between mt-12">
+          <div class="max-w-[380px] flex items-center flex-col gap-5">
+            <figure class="relative object-cover">
+              <img
+                src="./assets/doc1.jpeg"
+                alt="doctor"
+                class="rounded-full w-[250px] h-[250px]"
+              /><button
+                class="absolute bottom-5 right-0 bg-[--color-one] hover:opacity-80 duration-200 ease-linear p-3 rounded-full"
+              >
+                <svg
+                  viewBox="0 0 16 16"
+                  class="bi bi-whatsapp"
+                  fill="currentColor"
+                  height="24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: white"
+                >
+                  <path
+                    fill="white"
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  ></path>
+                </svg>
+              </button>
+            </figure>
+            <div class="flex flex-col gap-4 items-center">
+              <h3 class="text-xl font-semibold text-[--color-one]">
+                MED. VET. VANESSA RODRIGUES LIMA
+              </h3>
+              <span class="text-xs font-bold"> CRMV 20473 </span>
+              <span class="font-semibold">
+                Clínica Geral, Anestesiologia e Odontologia
+              </span>
+              <p class="text-sm font-thin text-justify">
+                Formada em Medicina Veterinária pela UNG com Especialização em
+                Odontologia e Anestesiologia, é uma profissional responsável e
+                focada no que mais gosta de fazer. Sua paixão pelos animais
+                começou cedo, aos 10 anos de idade quando já tinha certeza da
+                profissão que queria seguir. Atualmente, além da clinica geral
+                se dedica aos procedimentos de Odontologia e Anestesia
+                Inalatória.
+              </p>
+            </div>
+          </div>
+          <div class="max-w-[380px] flex items-center flex-col gap-5">
+            <figure class="relative object-cover">
+              <img
+                src="./assets/doc1.jpeg"
+                alt="doctor"
+                class="rounded-full w-[250px] h-[250px]"
+              /><button
+                class="absolute bottom-5 right-0 bg-[--color-one] hover:opacity-80 duration-200 ease-linear p-3 rounded-full"
+              >
+                <svg
+                  viewBox="0 0 16 16"
+                  class="bi bi-whatsapp"
+                  fill="currentColor"
+                  height="24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: white"
+                >
+                  <path
+                    fill="white"
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  ></path>
+                </svg>
+              </button>
+            </figure>
+            <div class="flex flex-col gap-4 items-center">
+              <h3 class="text-xl font-semibold text-[--color-one]">
+                MED. VET. VANESSA RODRIGUES LIMA
+              </h3>
+              <span class="text-xs font-bold"> CRMV 20473 </span>
+              <span class="font-semibold">
+                Clínica Geral, Anestesiologia e Odontologia
+              </span>
+              <p class="text-sm font-thin text-justify">
+                Formada em Medicina Veterinária pela UNG com Especialização em
+                Odontologia e Anestesiologia, é uma profissional responsável e
+                focada no que mais gosta de fazer. Sua paixão pelos animais
+                começou cedo, aos 10 anos de idade quando já tinha certeza da
+                profissão que queria seguir. Atualmente, além da clinica geral
+                se dedica aos procedimentos de Odontologia e Anestesia
+                Inalatória.
+              </p>
+            </div>
+          </div>
+          <div class="max-w-[380px] flex items-center flex-col gap-5">
+            <figure class="relative object-cover">
+              <img
+                src="./assets/doc1.jpeg"
+                alt="doctor"
+                class="rounded-full w-[250px] h-[250px]"
+              /><button
+                class="absolute bottom-5 right-0 bg-[--color-one] hover:opacity-80 duration-200 ease-linear p-3 rounded-full"
+              >
+                <svg
+                  viewBox="0 0 16 16"
+                  class="bi bi-whatsapp"
+                  fill="currentColor"
+                  height="24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="color: white"
+                >
+                  <path
+                    fill="white"
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  ></path>
+                </svg>
+              </button>
+            </figure>
+            <div class="flex flex-col gap-4 items-center">
+              <h3 class="text-xl font-semibold text-[--color-one]">
+                MED. VET. VANESSA RODRIGUES LIMA
+              </h3>
+              <span class="text-xs font-bold"> CRMV 20473 </span>
+              <span class="font-semibold">
+                Clínica Geral, Anestesiologia e Odontologia
+              </span>
+              <p class="text-sm font-thin text-justify">
+                Formada em Medicina Veterinária pela UNG com Especialização em
+                Odontologia e Anestesiologia, é uma profissional responsável e
+                focada no que mais gosta de fazer. Sua paixão pelos animais
+                começou cedo, aos 10 anos de idade quando já tinha certeza da
+                profissão que queria seguir. Atualmente, além da clinica geral
+                se dedica aos procedimentos de Odontologia e Anestesia
+                Inalatória.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="gallery"
+        class="flex flex-col w-full max-w-[1550px] gap-16 px-4 overflow-hidden mb-24 pt-24"
+      >
+        <h1 class="font-semibold text-4xl">Galeria</h1>
+        <div class="w-full flex max-h-92 justify-between gap-16">
+          <figure>
+            <img
+              class="rounded-lg shadow-snipped w-full h-full"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure>
+            <img
+              class="rounded-lg shadow-snipped w-full h-full"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure class="object-cover w-fit">
+            <img
+              class="rounded-lg shadow-snipped h-full min-w-[240px]"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure class="object-cover w-fit">
+            <img
+              class="rounded-lg shadow-snipped h-full min-w-[240px]"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+        </div>
+        <div
+          class="w-full flex flex-row-reverse max-h-44 justify-between gap-16"
+        >
+          <figure>
+            <img
+              class="rounded-lg shadow-snipped w-full h-full"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure>
+            <img
+              class="rounded-lg shadow-snipped w-full h-full"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure class="object-cover w-fit">
+            <img
+              class="rounded-lg shadow-snipped h-full min-w-[240px]"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+          <figure class="object-cover w-fit">
+            <img
+              class="rounded-lg shadow-snipped h-full min-w-[240px]"
+              src="./assets/hearth.jpg"
+              alt="img"
+            />
+          </figure>
+        </div>
+      </section>
+      <section
+        id="services"
+        class="flex flex-col w-full max-w-[1550px] gap-10 px-4 overflow-hidden mb-24 pt-24"
+      >
+        <h1 class="font-semibold text-4xl">Serviços</h1>
+        <div class="w-full flex gap-8 justify-between relative">
+          <ul class="max-w-[1200px] text-justify grid grid-cols-2 gap-8">
+            <li class="flex flex-col gap-4">
+              <h3 class="text-xl">Estética</h3>
+              <p class="font-thin">
+                Dispomos de um espaço climatizado e higienizado, com
+                profissionais capacitados para realizar banho e tosa com
+                segurança, conforto e habilidade técnica. Oferecemos diversos
+                serviços, incluindo tosa higiênica, tosa específica da raça,
+                tosa bebê, tosa na tesoura (trimming) e tosa pré-cirúrgica.
+                Também contamos com banho dermatológico, hidratação, corte de
+                unhas e escovação dentária. Para garantir a máxima higiene,
+                todas as toalhas são esterilizadas e embaladas individualmente,
+                evitando qualquer tipo de contaminação.
+              </p>
+            </li>
+            <li class="flex flex-col gap-4">
+              <h3 class="text-xl">Estética</h3>
+              <p class="font-thin">
+                Dispomos de um espaço climatizado e higienizado, com
+                profissionais capacitados para realizar banho e tosa com
+                segurança, conforto e habilidade técnica. Oferecemos diversos
+                serviços, incluindo tosa higiênica, tosa específica da raça,
+                tosa bebê, tosa na tesoura (trimming) e tosa pré-cirúrgica.
+                Também contamos com banho dermatológico, hidratação, corte de
+                unhas e escovação dentária. Para garantir a máxima higiene,
+                todas as toalhas são esterilizadas e embaladas individualmente,
+                evitando qualquer tipo de contaminação.
+              </p>
+            </li>
+            <li class="flex flex-col gap-4">
+              <h3 class="text-xl">Estética</h3>
+              <p class="font-thin">
+                Dispomos de um espaço climatizado e higienizado, com
+                profissionais capacitados para realizar banho e tosa com
+                segurança, conforto e habilidade técnica. Oferecemos diversos
+                serviços, incluindo tosa higiênica, tosa específica da raça,
+                tosa bebê, tosa na tesoura (trimming) e tosa pré-cirúrgica.
+                Também contamos com banho dermatológico, hidratação, corte de
+                unhas e escovação dentária. Para garantir a máxima higiene,
+                todas as toalhas são esterilizadas e embaladas individualmente,
+                evitando qualquer tipo de contaminação.
+              </p>
+            </li>
+            <li class="flex flex-col gap-4">
+              <h3 class="text-xl">Estética</h3>
+              <p class="font-thin">
+                Dispomos de um espaço climatizado e higienizado, com
+                profissionais capacitados para realizar banho e tosa com
+                segurança, conforto e habilidade técnica. Oferecemos diversos
+                serviços, incluindo tosa higiênica, tosa específica da raça,
+                tosa bebê, tosa na tesoura (trimming) e tosa pré-cirúrgica.
+                Também contamos com banho dermatológico, hidratação, corte de
+                unhas e escovação dentária. Para garantir a máxima higiene,
+                todas as toalhas são esterilizadas e embaladas individualmente,
+                evitando qualquer tipo de contaminação.
+              </p>
+            </li>
+          </ul>
+          <div class="min-h-full flex pt-14 justify-between flex-col">
+            <div class="flex flex-col items-center">
+              <div class="relative skill">
+                <div
+                  class="outer border-white relative flex items-center justify-center rounded-full w-40 h-40 p-5"
+                >
+                  <div
+                    class="inner flex items-center justify-center rounded-full w-30 h-30"
+                  >
+                    <div
+                      id="number"
+                      class="flex flex-col items-center justify-center font-semibold text-gray-700"
+                    >
+                      <span class="text-3xl md:text-xl text-[var(--color-text)]"
+                        >100%</span
+                      >
+                      <span class="text-sm md:text-xs">AVALIAÇÕES</span>
+                    </div>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                  class="absolute top-0 left-0 progressbar"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="var(--color-one)" />
+                      <stop offset="45%" stop-color="var(--color-two)" />
+                      <stop offset="55%" stop-color="var(--color-two)" />
+                      <stop offset="100%" stop-color="var(--color-one)" />
+                    </linearGradient>
+                  </defs>
+                  <circle
+                    cx="80"
+                    cy="80"
+                    r="70"
+                    stroke-linecap="round"
+                    stroke-dashoffset="100"
+                    fill="none"
+                    stroke="url(#GradientColor)"
+                    stroke-width="20px"
+                    stroke-dasharray="450"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="relative skill">
+                <div
+                  class="outer border-white relative flex items-center justify-center rounded-full w-40 h-40 p-5"
+                >
+                  <div
+                    class="inner flex items-center justify-center rounded-full w-30 h-30"
+                  >
+                    <div
+                      id="number"
+                      class="flex flex-col items-center justify-center font-semibold text-gray-700"
+                    >
+                      <span class="text-3xl md:text-xl text-[var(--color-text)]"
+                        >100%</span
+                      >
+                      <span class="text-sm md:text-xs">SEGURANÇA</span>
+                    </div>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                  class="absolute top-0 left-0 progressbar"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#ed145b" />
+                      <stop offset="45%" stop-color="#8d8d8d" />
+                      <stop offset="55%" stop-color="#8d8d8d" />
+                      <stop offset="100%" stop-color="#ed145b" />
+                    </linearGradient>
+                  </defs>
+                  <circle
+                    cx="80"
+                    cy="80"
+                    r="70"
+                    stroke-linecap="round"
+                    stroke-dashoffset="100"
+                    fill="none"
+                    stroke="url(#GradientColor)"
+                    stroke-width="20px"
+                    stroke-dasharray="450"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="shop"
+        class="flex flex-col w-full max-w-[1550px] gap-16 px-4 overflow-hidden pt-24 mb-24"
+      >
+        <h1 class="font-semibold text-4xl">Produtos</h1>
+        <div>
+          <p>
+            Na Pet & Companhia, priorizamos a qualidade em todos os produtos que
+            oferecemos. Selecionamos cuidadosamente cada item do nosso catálogo,
+            garantindo que eles atendam aos mais altos padrões de segurança e
+            eficácia. Nossos alimentos são nutritivos e balanceados, ideais para
+            a saúde e bem-estar dos pets. Os brinquedos e acessórios são
+            duráveis e seguros, proporcionando diversão e conforto. Além disso,
+            nossos produtos de higiene são formulados com ingredientes suaves e
+            eficazes, perfeitos para manter seu pet limpo e saudável. Na Pet &
+            Companhia, você pode confiar que está adquirindo o melhor para o seu
+            amigo de quatro patas.
+          </p>
+        </div>
+        <div>
+          <div class="w-full flex justify-between mb-5">
+            <h3>Alimentico</h3>
+            <a href="#">Ver catálogo</a>
+          </div>
+          <swiper-container
+            class="w-full h-full"
+            slides-per-view="4"
+            space-between="30"
+            loop="true"
+            autoplay-delay="2500"
+            autoplay-disable-on-interaction="false"
+          >
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="w-full h-full object-fit rounded-md max-w-[200px]"
+            >
+              <img src="./assets/cao-alegre-a-divertir-se.jpg" alt=""  class="rounded-lg"/>
+              <div>
+                <h4>HILL´S CANINE AD 7+ PEQ E MINI 800G</h4>
+                <div>
+                  <p>R$ 64,49</p>
+                  <p>ou 10x de R$ 6,49</p>
+                </div>
+                <button class="button shadow-snipped">
+                  <span class="bell">
+                    <i class="bx bx-bone"></i>
+                  </span>
+                  Notifications
+                  <div class="arrow">›</div>
+                </button>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
