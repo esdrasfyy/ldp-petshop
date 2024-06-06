@@ -34,12 +34,12 @@
   </head>
   <body class="bg-[var(--color-bg-primary)] text-[var(--color-text)]">
     <header
-      class="fixed h-screen bg-[--color-bg-secondary] flex flex-col justify-between  max-[1020px]:px-1 px-2 shadow-snipped pt-5"
+      class="fixed h-screen bg-[--color-bg-secondary] flex flex-col justify-between max-[1020px]:px-1 px-2 shadow-snipped pt-5"
     >
       <figure class="mx-auto">
         <a
           href="#home"
-          class="text-4xl max-[1020px]:text-3xl  max-[1020px]:w-10  max-[1020px]:h-10 w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-three] rounded-full duration-200 ease-linear"
+          class="text-4xl max-[1020px]:text-3xl max-[1020px]:w-10 max-[1020px]:h-10 w-12 h-12 flex items-center justify-center hover:bg-white/20 hover:text-[--color-three] rounded-full duration-200 ease-linear"
         >
           <i class="bx bxs-dog"></i>
         </a>
@@ -95,18 +95,32 @@
         </li>
       </nav>
     </header>
-    <main class="w-full h-full flex flex-col pl-16  max-[1020px]:pl-12 justify-center items-center">
+    <main
+      class="w-full h-full flex flex-col pl-16 max-[1020px]:pl-12 justify-center items-center"
+    >
       <section
         id="home"
-        class="flex w-full h-screen justify-between max-w-[1550px] max-[990px]:gap-5 gap-8 px-4 overflow-hidden  max-[990px]:flex-col-reverse"
+        class="flex w-full h-screen justify-between max-w-[1550px] max-[990px]:gap-5 gap-8 px-4 overflow-hidden max-[990px]:flex-col-reverse"
       >
-        <div class="h-full flex flex-col justify-center gap-8 max-[990px]:gap-5 max-[990px]:pb-5">
+        <div
+          class="h-full flex flex-col justify-center gap-8 max-[990px]:gap-5 max-[990px]:pb-5"
+        >
           <div class="flex flex-col gap-8 text-[--color-one]">
-            <h1 class="font-bold text-7xl  max-[1020px]:text-5xl max-[500px]:text-4xl">Pet & Companhia:</h1>
-            <h2 class="font-semibold text-4xl  max-[1020px]:text-3xl max-[500px]:text-2xl">Cuidando com Amor!</h2>
+            <h1
+              class="font-bold text-7xl max-[1020px]:text-5xl max-[500px]:text-4xl"
+            >
+              Pet & Companhia:
+            </h1>
+            <h2
+              class="font-semibold text-4xl max-[1020px]:text-3xl max-[500px]:hidden"
+            >
+              Cuidando com Amor!
+            </h2>
           </div>
           <div>
-            <p class="flex flex-col gap-3 text-xl max-w-[650px]  max-[1020px]:text-base">
+            <p
+              class="flex flex-col gap-3 text-xl max-w-[650px] max-[1020px]:text-base"
+            >
               <span class="font-bold text-2xl">Na Pet & Companhia,</span>
               <span class="text-justify font-thin">
                 seu pet é tratado com todo o
@@ -154,34 +168,46 @@
 
         <div
           id="default-carousel"
-          class="relative w-full max-w-[600px] h-[90vh]   min-h-[800px] min-w-[450px] shadow-snipped max-[1070px]:max-w-[450px]  max-[990px]:max-w-full  max-[990px]:min-w-[250px]"
+          class="relative w-full max-w-[600px] h-[90vh] min-h-[800px] min-w-[450px] shadow-snipped max-[1070px]:max-w-[450px] max-[990px]:max-w-full max-[990px]:min-w-[250px]"
           data-carousel="slide"
         >
           <div
             class="relative h-full overflow-hidden rounded-lg rounded-t-none"
           >
-            <div class="hidden duration-700 ease-in-out min-h-full object-cover" data-carousel-item>
+            <div
+              class="hidden duration-700 ease-in-out min-h-full object-cover"
+              data-carousel-item
+            >
               <img
                 src="./assets/dog1.jpg"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
                 alt="..."
               />
             </div>
-            <div class="hidden duration-700 ease-in-out min-h-full object-cover" data-carousel-item>
+            <div
+              class="hidden duration-700 ease-in-out min-h-full object-cover"
+              data-carousel-item
+            >
               <img
                 src="./assets/dog2.jpg"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
                 alt="..."
               />
             </div>
-            <div class="hidden duration-700 ease-in-out min-h-full object-cover" data-carousel-item>
+            <div
+              class="hidden duration-700 ease-in-out min-h-full object-cover"
+              data-carousel-item
+            >
               <img
                 src="./assets/dog1.jpg"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
                 alt="..."
               />
             </div>
-            <div class="hidden duration-700 ease-in-out min-h-full object-cover" data-carousel-item>
+            <div
+              class="hidden duration-700 ease-in-out min-h-full object-cover"
+              data-carousel-item
+            >
               <img
                 src="./assets/dog2.jpg"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
@@ -747,6 +773,13 @@
             loop="true"
             centeredSlides="true"
             autoplay-delay="2500"
+            data-swiper-config='{
+        "breakpoints": {
+            "640": { "slidesPerView": 1 },
+            "768": { "slidesPerView": 2 },
+            "1024": { "slidesPerView": 3 }
+        }
+    }'
           >
           </swiper-container>
         </div>
@@ -763,6 +796,13 @@
             loop="true"
             centeredSlides="true"
             autoplay-delay="2500"
+            data-swiper-config='{
+        "breakpoints": {
+            "640": { "slidesPerView": 1 },
+            "768": { "slidesPerView": 2 },
+            "1024": { "slidesPerView": 3 }
+        }
+    }'
           >
           </swiper-container>
         </div>
@@ -779,36 +819,47 @@
             loop="true"
             centeredSlides="true"
             autoplay-delay="2500"
+            data-swiper-config='{
+        "breakpoints": {
+            "640": { "slidesPerView": 1 },
+            "768": { "slidesPerView": 2 },
+            "1024": { "slidesPerView": 3 }
+        }
+    }'
           >
           </swiper-container>
         </div>
       </section>
     </main>
-    <footer class="flex flex-col w-full bg-[--color-bg-secondary]" id="contatos">
+    <footer
+      class="flex flex-col w-full bg-[--color-bg-secondary]"
+      id="contatos"
+    >
       <div class="h-96"></div>
       <div class="bg-[--color-bg-primary] flex w-full justify-center py-4">
-        <div class="justify-between max-w-[1200px] mx-auto w-full flex items-center">
-
+        <div
+          class="justify-between max-w-[1200px] mx-auto w-full flex items-center"
+        >
           <div class="max-w-[300px] text-xs">
             <p>
-              © Todos os direitos reservados | OASIS RADIANT HOTEL - Av. São João,
-              439 - República, São Paulo - SP.
+              © Todos os direitos reservados | OASIS RADIANT HOTEL - Av. São
+              João, 439 - República, São Paulo - SP.
             </p>
           </div>
           <div class="text-xs">
             <p>
               Feito por
-            <a
-              href="https://github.com/EsdrasFy"
-              target="_blank"
-              class="underline font-semibold"
-              >Fernando Esdras</a
+              <a
+                href="https://github.com/EsdrasFy"
+                target="_blank"
+                class="underline font-semibold"
+                >Fernando Esdras</a
               >
               | A venda!
             </p>
           </div>
         </div>
-        </div>
+      </div>
     </footer>
     <script type="module">
       import { alimenticio, vestuario, outros } from "./content/alimenticio.js";
